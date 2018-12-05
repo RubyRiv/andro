@@ -1,0 +1,19 @@
+slots: 
+  POKEMON: 
+    type: text
+  ATTACK: 
+    type: text
+
+intents: 
+  - greeting
+  - goodbye
+
+actions:
+  - utter_greeting 
+  - utter_goodbye
+
+templates:
+  utter_greeting: 
+    - Hi! 
+  utter_goodbye: 
+    - Bye!

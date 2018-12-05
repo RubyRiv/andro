@@ -1,0 +1,28 @@
+%YAML 1.1
+---
+actions:
+- utter_greeting
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greeting:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  ATTACK:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  POKEMON:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Bye!
+  utter_greeting:
+  - text: Hi!
