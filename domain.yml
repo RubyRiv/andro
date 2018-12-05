@@ -1,19 +1,36 @@
+entities: 
+  - pokemon
+  - type 
+  - attack 
+ 
 slots: 
   POKEMON: 
     type: text
   ATTACK: 
     type: text
+  TYPE: 
+    type: text
 
 intents: 
   - greeting
   - goodbye
+  - pokemon_type
+  - pokemon_stats
+  - pokemon_abilities
+  - pokemon_weakness
+  - type_weakness
 
 actions:
   - utter_greeting 
   - utter_goodbye
+  - action_get_pokemon_type
+  - action_get_pokemon_stats
+  - action_get_pokemon_abilites
+  - action_get_pokemon_weaknesses
 
 templates:
   utter_greeting: 
     - Hi! 
   utter_goodbye: 
     - Bye!
+  
