@@ -1,24 +1,31 @@
 entities: 
   - pokemon
   - type 
-  - attack 
+  - move
  
 slots: 
   POKEMON: 
     type: text
-  ATTACK: 
+  MOVE: 
     type: text
   TYPE: 
     type: text
 
 intents: 
-  - greeting
-  - goodbye
+  - chitchat_greeting
+  - chitchat_goodbye
   - pokemon_type
   - pokemon_stats
   - pokemon_abilities
   - pokemon_weakness
   - type_weakness
+  - type_moves
+  - type_pokemon
+  - type_pokemon_moves
+  - move_info
+  - move_type
+  - move_pokemon
+  - move_strength
 
 actions:
   - utter_greeting 

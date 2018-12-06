@@ -1,7 +1,7 @@
 ## greeting
-* greeting
+* chitchat_greeting
 - utter_greeting
 
 ## goodbye 
-* goodbye
+* chitchat_goodbye
 - utter_goodbye
