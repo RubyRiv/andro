@@ -2,32 +2,259 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greeting",
+        "intent": "chitchat_greeting",
         "text": "hey"
       },
       {
-        "intent": "greeting",
+        "intent": "chitchat_greeting",
         "text": "hello"
       },
       {
-        "intent": "greeting",
+        "intent": "chitchat_greeting",
         "text": "hi"
       },
       {
-        "intent": "greeting",
+        "intent": "chitchat_greeting",
         "text": "heya"
       },
       {
-        "intent": "goodbye",
+        "intent": "chitchat_goodbye",
         "text": "bye"
       },
       {
-        "intent": "goodbye",
+        "intent": "chitchat_goodbye",
         "text": "good bye"
+      },
+      {
+        "intent": "move_info",
+        "text": "What do you know about (Teleport)[MOVE]"
+      },
+      {
+        "intent": "move_info",
+        "text": "Give me information about (Teleport)[MOVE]"
+      },
+      {
+        "intent": "move_type",
+        "text": "Of which type is (Teleport)[MOVE]?"
+      },
+      {
+        "intent": "move_pokemon",
+        "text": "Which Pokemon learn (Teleport)[MOVE]?"
+      },
+      {
+        "intent": "move_pokemon",
+        "text": "Which Pokemon does learn (Teleport)[MOVE]?"
+      },
+      {
+        "intent": "move_strength",
+        "text": "How strong is (Teleport)[MOVE]?"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Abra's",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "What's Abra's type?"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Which type is Abra?"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Abra type"
+      },
+      {
+        "intent": "pokemon_stats",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Abra stats"
+      },
+      {
+        "intent": "pokemon_abilities",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Abra abilities"
+      },
+      {
+        "intent": "pokemon_weakness",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Abra weakness"
+      },
+      {
+        "intent": "pokemon_weakness",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "What is Abra weak to?"
+      },
+      {
+        "intent": "pokemon_weakness",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Wheat is good against Abra?"
+      },
+      {
+        "intent": "type_weakness",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Psychic weakness"
+      },
+      {
+        "intent": "type_weakness",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "What is Psychic weak to?"
+      },
+      {
+        "intent": "type_weakness",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "What is good against Psychic?"
+      },
+      {
+        "intent": "type_moves",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Moves of type Psychic"
+      },
+      {
+        "intent": "type_pokemon",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Which Pokemon do have the type Psychic?"
+      },
+      {
+        "intent": "type_pokemon_moves",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Psychic",
+            "entity": "TYPE"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Which moves of type Psychic does Abra learn?"
       }
     ],
     "regex_features": [],
-    "lookup_tables": [],
+    "lookup_tables": [
+      {
+        "name": "type",
+        "elements": "data/lookup_tables/type.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_1.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_2.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_3.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_4.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_5.txt"
+      },
+      {
+        "name": "pokemon",
+        "elements": "data/lookup_tables/pokemon/pokemon_6.txt"
+      }
+    ],
     "entity_synonyms": []
   }
 }

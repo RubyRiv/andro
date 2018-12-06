@@ -3,21 +3,56 @@
 actions:
 - utter_greeting
 - utter_goodbye
+- action_get_pokemon_type
+- action_get_pokemon_stats
+- action_get_pokemon_abilites
+- action_get_pokemon_weaknesses
 config:
   store_entities_as_slots: true
-entities: []
+entities:
+- pokemon
+- type
+- move
 forms: []
 intents:
-- greeting:
+- chitchat_greeting:
     use_entities: true
-- goodbye:
+- chitchat_goodbye:
+    use_entities: true
+- pokemon_type:
+    use_entities: true
+- pokemon_stats:
+    use_entities: true
+- pokemon_abilities:
+    use_entities: true
+- pokemon_weakness:
+    use_entities: true
+- type_weakness:
+    use_entities: true
+- type_moves:
+    use_entities: true
+- type_pokemon:
+    use_entities: true
+- type_pokemon_moves:
+    use_entities: true
+- move_info:
+    use_entities: true
+- move_type:
+    use_entities: true
+- move_pokemon:
+    use_entities: true
+- move_strength:
     use_entities: true
 slots:
-  ATTACK:
+  MOVE:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   POKEMON:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  TYPE:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot

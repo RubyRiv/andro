@@ -1,14 +1,34 @@
 {
   "states": [
-    "intent_goodbye",
-    "intent_greeting",
-    "slot_ATTACK_0",
+    "intent_chitchat_goodbye",
+    "intent_chitchat_greeting",
+    "intent_move_info",
+    "intent_move_pokemon",
+    "intent_move_strength",
+    "intent_move_type",
+    "intent_pokemon_abilities",
+    "intent_pokemon_stats",
+    "intent_pokemon_type",
+    "intent_pokemon_weakness",
+    "intent_type_moves",
+    "intent_type_pokemon",
+    "intent_type_pokemon_moves",
+    "intent_type_weakness",
+    "entity_pokemon",
+    "entity_type",
+    "entity_move",
+    "slot_MOVE_0",
     "slot_POKEMON_0",
+    "slot_TYPE_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
     "prev_action_deactivate_form",
     "prev_utter_greeting",
-    "prev_utter_goodbye"
+    "prev_utter_goodbye",
+    "prev_action_get_pokemon_type",
+    "prev_action_get_pokemon_stats",
+    "prev_action_get_pokemon_abilites",
+    "prev_action_get_pokemon_weaknesses"
   ]
 }
