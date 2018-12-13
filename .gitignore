@@ -1,5 +1,7 @@
 # andro's own
 overview.txt
+story_graph.dot
+rasa_core.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

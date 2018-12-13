@@ -1,43 +1,39 @@
-entities: 
-  - pokemon
-  - type 
-  - move
- 
-slots: 
-  POKEMON: 
-    type: text
-  MOVE: 
-    type: text
-  TYPE: 
-    type: text
-
-intents: 
-  - chitchat_greeting
-  - chitchat_goodbye
-  - pokemon_type
-  - pokemon_stats
-  - pokemon_abilities
-  - pokemon_weakness
-  - type_weakness
-  - type_moves
-  - type_pokemon
-  - type_pokemon_moves
-  - move_info
-  - move_type
-  - move_pokemon
-  - move_strength
-
+%YAML 1.1
+---
 actions:
-  - utter_greeting 
-  - utter_goodbye
-  - action_get_pokemon_type
-  - action_get_pokemon_stats
-  - action_get_pokemon_abilites
-  - action_get_pokemon_weaknesses
-
+- utter_goodbye
+- action_get_pokemon_type
+- utter_greeting
+- action_get_pokemon_weaknesses
+- action_default_fallback
+- action_get_pokemon_stats
+- action_get_pokemon_abilites
+config:
+  store_entities_as_slots: true
+entities:
+- type
+- pokemon
+- move
+- nature
+- ability
+forms: []
+intents:
+- chitchat_greeting
+- chitchat_goodbye
+- pokemon_type
+- pokemon_stats
+- pokemon_abilities
+- pokemon_weakness
+- type_weakness
+- type_moves
+- type_pokemon
+- type_pokemon_moves
+- move_info
+- move_type
+- move_pokemon
+- move_strength
 templates:
-  utter_greeting: 
-    - Hi! 
-  utter_goodbye: 
-    - Bye!
-  
+  utter_goodbye:
+  - text: Bye!
+  utter_greeting:
+  - text: Hi!
