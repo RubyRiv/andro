@@ -6,8 +6,8 @@ class ActionGetPokemonType(Action):
 		return "action_get_pokemon_type"
 	
 	def run(self, dispatcher, tracker, domain):
-		pokemon = tracker.get_slot('POKEMON')
-		result = "%s is a psychic type Pokemon." % (pokemon)
+		pokemon_name = tracker.get_slot('pokemon')
+		result = "%s is a psychic type Pokemon." % (pokemon_name)
 		
 		dispatcher.utter_message(result)
 		return []

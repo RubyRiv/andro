@@ -15,6 +15,9 @@ entities:
 - move
 - nature
 - ability
+slots: 
+  pokemon: 
+    type: text
 forms: []
 intents:
 - chitchat_greeting

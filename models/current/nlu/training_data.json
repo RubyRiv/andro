@@ -128,7 +128,7 @@
             "start": 23,
             "end": 31,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "What do you know about Teleport"
@@ -140,7 +140,7 @@
             "start": 26,
             "end": 34,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Give me information about Teleport"
@@ -152,7 +152,7 @@
             "start": 0,
             "end": 8,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Teleport"
@@ -164,7 +164,7 @@
             "start": 21,
             "end": 29,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "I want to know about Teleport"
@@ -176,7 +176,7 @@
             "start": 0,
             "end": 8,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Teleport information"
@@ -188,7 +188,7 @@
             "start": 17,
             "end": 25,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Of which type is Teleport?"
@@ -200,7 +200,7 @@
             "start": 0,
             "end": 8,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Teleport type"
@@ -212,7 +212,7 @@
             "start": 13,
             "end": 21,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "What type is Teleport?"
@@ -224,7 +224,7 @@
             "start": 20,
             "end": 28,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Give me the type of Teleport"
@@ -236,7 +236,7 @@
             "start": 10,
             "end": 18,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "move type Teleport"
@@ -248,7 +248,7 @@
             "start": 23,
             "end": 31,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Which Pokemon do learn Teleport"
@@ -260,7 +260,7 @@
             "start": 23,
             "end": 31,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Which Pokemon does get Teleport?"
@@ -272,7 +272,7 @@
             "start": 21,
             "end": 29,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Which Pokemon do get Teleport?"
@@ -284,7 +284,7 @@
             "start": 25,
             "end": 33,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Which Pokemon does learn Teleport?"
@@ -296,7 +296,7 @@
             "start": 8,
             "end": 16,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Pokemon Teleport"
@@ -308,7 +308,7 @@
             "start": 38,
             "end": 46,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Give me a list of Pokemon which learn Teleport?"
@@ -320,7 +320,7 @@
             "start": 32,
             "end": 40,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Do you know which Pokemon learn Teleport?"
@@ -332,7 +332,7 @@
             "start": 13,
             "end": 21,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Who does get Teleport?"
@@ -344,7 +344,7 @@
             "start": 14,
             "end": 22,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "How strong is Teleport?"
@@ -356,7 +356,7 @@
             "start": 12,
             "end": 20,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Strenght of Teleport"
@@ -368,7 +368,7 @@
             "start": 0,
             "end": 8,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "Teleport strenght"
@@ -380,7 +380,7 @@
             "start": 12,
             "end": 20,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "How good is Teleport?"
@@ -392,7 +392,7 @@
             "start": 21,
             "end": 29,
             "value": "Teleport",
-            "entity": "MOVE"
+            "entity": "move"
           }
         ],
         "text": "How much damage does Teleport?"
@@ -404,7 +404,7 @@
             "start": 7,
             "end": 11,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "What's Abra's type?"
@@ -416,7 +416,7 @@
             "start": 8,
             "end": 12,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "What is Abra's type?"
@@ -428,7 +428,7 @@
             "start": 14,
             "end": 18,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Which type is Abra?"
@@ -440,7 +440,7 @@
             "start": 13,
             "end": 17,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "What type is Abra?"
@@ -452,7 +452,7 @@
             "start": 0,
             "end": 4,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Abra type"
@@ -464,7 +464,7 @@
             "start": 8,
             "end": 12,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "type of Abra"
@@ -476,7 +476,7 @@
             "start": 0,
             "end": 4,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Abra stats"
@@ -488,7 +488,7 @@
             "start": 6,
             "end": 10,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Stats Abra"
@@ -500,7 +500,7 @@
             "start": 0,
             "end": 4,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Abra abilities"
@@ -512,7 +512,7 @@
             "start": 21,
             "end": 25,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Which abilities does Abra get?"
@@ -524,7 +524,7 @@
             "start": 0,
             "end": 4,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Abra weakness"
@@ -536,7 +536,7 @@
             "start": 8,
             "end": 12,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "What is Abra weak to?"
@@ -548,7 +548,7 @@
             "start": 22,
             "end": 26,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Wheat is good against Abra?"
@@ -560,7 +560,7 @@
             "start": 0,
             "end": 7,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Psychic weakness"
@@ -572,7 +572,7 @@
             "start": 8,
             "end": 15,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "What is Psychic weak to?"
@@ -584,7 +584,7 @@
             "start": 21,
             "end": 28,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "What is good against Psychic?"
@@ -596,7 +596,7 @@
             "start": 14,
             "end": 21,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Moves of type Psychic"
@@ -608,7 +608,7 @@
             "start": 0,
             "end": 7,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Psychic type moves"
@@ -620,7 +620,7 @@
             "start": 31,
             "end": 38,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Which Pokemon do have the type Psychic?"
@@ -632,7 +632,7 @@
             "start": 0,
             "end": 7,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Psychic type Pokemon"
@@ -644,7 +644,7 @@
             "start": 0,
             "end": 7,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Psychic Pokemon"
@@ -656,13 +656,13 @@
             "start": 20,
             "end": 27,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           },
           {
             "start": 33,
             "end": 37,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           }
         ],
         "text": "Which moves of type Psychic does Abra learn?"
@@ -674,13 +674,13 @@
             "start": 0,
             "end": 4,
             "value": "Abra",
-            "entity": "POKEMON"
+            "entity": "pokemon"
           },
           {
             "start": 5,
             "end": 12,
             "value": "Psychic",
-            "entity": "TYPE"
+            "entity": "type"
           }
         ],
         "text": "Abra Psychic moves"

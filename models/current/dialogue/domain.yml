@@ -45,7 +45,11 @@ intents:
     use_entities: true
 - move_strength:
     use_entities: true
-slots: {}
+slots:
+  pokemon:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
   utter_goodbye:
   - text: Bye!

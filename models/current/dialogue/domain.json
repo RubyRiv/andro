@@ -19,6 +19,7 @@
     "entity_move",
     "entity_nature",
     "entity_ability",
+    "slot_pokemon_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
