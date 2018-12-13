@@ -1,5 +1,6 @@
 ToDo
 
 - [ ] Add Pokemon Generation 7
-- [ ] Add Lookup Table for Moves
-- [ ] Add Lookup Table for Abilities
+- [X] Add Lookup Table for Moves
+- [X] Add Lookup Table for Abilities
+- [X] Add Lookup Table for Natures

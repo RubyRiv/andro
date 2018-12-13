@@ -24,8 +24,8 @@
     "prev_action_default_fallback",
     "prev_action_deactivate_form",
     "prev_utter_goodbye",
-    "prev_action_get_pokemon_type",
     "prev_utter_greeting",
+    "prev_action_get_pokemon_type",
     "prev_action_get_pokemon_weaknesses",
     "prev_action_get_pokemon_stats",
     "prev_action_get_pokemon_abilites"

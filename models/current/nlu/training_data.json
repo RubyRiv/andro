@@ -413,6 +413,18 @@
         "intent": "pokemon_type",
         "entities": [
           {
+            "start": 8,
+            "end": 12,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "What is Abra's type?"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
             "start": 14,
             "end": 18,
             "value": "Abra",
@@ -425,6 +437,18 @@
         "intent": "pokemon_type",
         "entities": [
           {
+            "start": 13,
+            "end": 17,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "What type is Abra?"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
             "start": 0,
             "end": 4,
             "value": "Abra",
@@ -432,6 +456,18 @@
           }
         ],
         "text": "Abra type"
+      },
+      {
+        "intent": "pokemon_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "type of Abra"
       },
       {
         "intent": "pokemon_stats",

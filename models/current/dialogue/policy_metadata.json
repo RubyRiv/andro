@@ -3,6 +3,9 @@
     "action_listen": {
       "slots": []
     },
+    "action_get_pokemon_type": {
+      "slots": []
+    },
     "utter_greeting": {
       "slots": []
     },
@@ -25,5 +28,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20181213-110200"
+  "trained_at": "20181213-141617"
 }

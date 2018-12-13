@@ -1,19 +1,22 @@
 <!-- Pokemon --> 
 
 ## intent:pokemon_type
-- What's [Abra](POKEMON)'s type? 
-- Which type is [Abra](POKEMON)?
-- [Abra](POKEMON) type 
+- What's [Abra](pokemon)'s type? 
+- What is [Abra](pokemon)'s type? 
+- Which type is [Abra](pokemon)?
+- What type is [Abra](pokemon)?
+- [Abra](pokemon) type 
+- type of [Abra](pokemon)
 
 ## intent:pokemon_stats
-- [Abra](POKEMON) stats
-- Stats [Abra](POKEMON) 
+- [Abra](pokemon) stats
+- Stats [Abra](pokemon) 
 
 ## intent:pokemon_abilities 
-- [Abra](POKEMON) abilities 
-- Which abilities does [Abra](POKEMON) get? 
+- [Abra](pokemon) abilities 
+- Which abilities does [Abra](pokemon) get? 
 
 ## intent:pokemon_weakness
-- [Abra](POKEMON) weakness
-- What is [Abra](POKEMON) weak to? 
-- Wheat is good against [Abra](POKEMON)?
+- [Abra](pokemon) weakness
+- What is [Abra](pokemon) weak to? 
+- Wheat is good against [Abra](pokemon)?

@@ -2,10 +2,9 @@
 ---
 actions:
 - utter_goodbye
-- action_get_pokemon_type
 - utter_greeting
+- action_get_pokemon_type
 - action_get_pokemon_weaknesses
-- action_default_fallback
 - action_get_pokemon_stats
 - action_get_pokemon_abilites
 config:
