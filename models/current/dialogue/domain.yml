@@ -1,18 +1,21 @@
 %YAML 1.1
 ---
 actions:
-- utter_greeting
 - utter_goodbye
 - action_get_pokemon_type
+- utter_greeting
+- action_get_pokemon_weaknesses
+- action_default_fallback
 - action_get_pokemon_stats
 - action_get_pokemon_abilites
-- action_get_pokemon_weaknesses
 config:
   store_entities_as_slots: true
 entities:
-- pokemon
 - type
+- pokemon
 - move
+- nature
+- ability
 forms: []
 intents:
 - chitchat_greeting:
@@ -43,19 +46,7 @@ intents:
     use_entities: true
 - move_strength:
     use_entities: true
-slots:
-  MOVE:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  POKEMON:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  TYPE:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
+slots: {}
 templates:
   utter_goodbye:
   - text: Bye!

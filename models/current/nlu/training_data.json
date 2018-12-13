@@ -7,7 +7,15 @@
       },
       {
         "intent": "chitchat_greeting",
+        "text": "hey there"
+      },
+      {
+        "intent": "chitchat_greeting",
         "text": "hello"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "hallo"
       },
       {
         "intent": "chitchat_greeting",
@@ -15,7 +23,43 @@
       },
       {
         "intent": "chitchat_greeting",
+        "text": "yo"
+      },
+      {
+        "intent": "chitchat_greeting",
         "text": "heya"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "greetings"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "howdy"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "good day"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "good morning"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "good evening"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "Morning!"
+      },
+      {
+        "intent": "chitchat_greeting",
+        "text": "G'day"
       },
       {
         "intent": "chitchat_goodbye",
@@ -26,36 +70,340 @@
         "text": "good bye"
       },
       {
-        "intent": "move_info",
-        "text": "What do you know about (Teleport)[MOVE]"
+        "intent": "chitchat_goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "have a nice day!"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "adieu"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "ciao"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "au revoir"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "adios"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "sayonara"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "catch you"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "cheers"
+      },
+      {
+        "intent": "chitchat_goodbye",
+        "text": "later"
       },
       {
         "intent": "move_info",
-        "text": "Give me information about (Teleport)[MOVE]"
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "What do you know about Teleport"
+      },
+      {
+        "intent": "move_info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Give me information about Teleport"
+      },
+      {
+        "intent": "move_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Teleport"
+      },
+      {
+        "intent": "move_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "I want to know about Teleport"
+      },
+      {
+        "intent": "move_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Teleport information"
       },
       {
         "intent": "move_type",
-        "text": "Of which type is (Teleport)[MOVE]?"
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Of which type is Teleport?"
+      },
+      {
+        "intent": "move_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Teleport type"
+      },
+      {
+        "intent": "move_type",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "What type is Teleport?"
+      },
+      {
+        "intent": "move_type",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Give me the type of Teleport"
+      },
+      {
+        "intent": "move_type",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "move type Teleport"
       },
       {
         "intent": "move_pokemon",
-        "text": "Which Pokemon learn (Teleport)[MOVE]?"
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Which Pokemon do learn Teleport"
       },
       {
         "intent": "move_pokemon",
-        "text": "Which Pokemon does learn (Teleport)[MOVE]?"
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Which Pokemon does get Teleport?"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Which Pokemon do get Teleport?"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Which Pokemon does learn Teleport?"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Pokemon Teleport"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Give me a list of Pokemon which learn Teleport?"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Do you know which Pokemon learn Teleport?"
+      },
+      {
+        "intent": "move_pokemon",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Who does get Teleport?"
       },
       {
         "intent": "move_strength",
-        "text": "How strong is (Teleport)[MOVE]?"
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "How strong is Teleport?"
+      },
+      {
+        "intent": "move_strength",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Strenght of Teleport"
+      },
+      {
+        "intent": "move_strength",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "Teleport strenght"
+      },
+      {
+        "intent": "move_strength",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "How good is Teleport?"
+      },
+      {
+        "intent": "move_strength",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Teleport",
+            "entity": "MOVE"
+          }
+        ],
+        "text": "How much damage does Teleport?"
       },
       {
         "intent": "pokemon_type",
         "entities": [
           {
             "start": 7,
-            "end": 13,
-            "value": "Abra's",
+            "end": 11,
+            "value": "Abra",
             "entity": "POKEMON"
           }
         ],
@@ -98,6 +446,18 @@
         "text": "Abra stats"
       },
       {
+        "intent": "pokemon_stats",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Stats Abra"
+      },
+      {
         "intent": "pokemon_abilities",
         "entities": [
           {
@@ -108,6 +468,18 @@
           }
         ],
         "text": "Abra abilities"
+      },
+      {
+        "intent": "pokemon_abilities",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Abra",
+            "entity": "POKEMON"
+          }
+        ],
+        "text": "Which abilities does Abra get?"
       },
       {
         "intent": "pokemon_weakness",
@@ -194,6 +566,18 @@
         "text": "Moves of type Psychic"
       },
       {
+        "intent": "type_moves",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Psychic type moves"
+      },
+      {
         "intent": "type_pokemon",
         "entities": [
           {
@@ -204,6 +588,30 @@
           }
         ],
         "text": "Which Pokemon do have the type Psychic?"
+      },
+      {
+        "intent": "type_pokemon",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Psychic type Pokemon"
+      },
+      {
+        "intent": "type_pokemon",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Psychic Pokemon"
       },
       {
         "intent": "type_pokemon_moves",
@@ -222,13 +630,31 @@
           }
         ],
         "text": "Which moves of type Psychic does Abra learn?"
+      },
+      {
+        "intent": "type_pokemon_moves",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Abra",
+            "entity": "POKEMON"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Psychic",
+            "entity": "TYPE"
+          }
+        ],
+        "text": "Abra Psychic moves"
       }
     ],
     "regex_features": [],
     "lookup_tables": [
       {
         "name": "type",
-        "elements": "data/lookup_tables/type.txt"
+        "elements": "data/lookup_tables/types.txt"
       },
       {
         "name": "pokemon",
@@ -253,6 +679,58 @@
       {
         "name": "pokemon",
         "elements": "data/lookup_tables/pokemon/pokemon_6.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_1.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_2.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_3.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_4.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_5.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_6.txt"
+      },
+      {
+        "name": "move",
+        "elements": "data/lookup_tables/moves/moves_7.txt"
+      },
+      {
+        "name": "ability",
+        "elements": "data/lookup_tables/abilities/abilities_3.txt"
+      },
+      {
+        "name": "ability",
+        "elements": "data/lookup_tables/abilities/abilities_4.txt"
+      },
+      {
+        "name": "ability",
+        "elements": "data/lookup_tables/abilities/abilities_5.txt"
+      },
+      {
+        "name": "ability",
+        "elements": "data/lookup_tables/abilities/abilities_6.txt"
+      },
+      {
+        "name": "ability",
+        "elements": "data/lookup_tables/abilities/abilities_7.txt"
+      },
+      {
+        "name": "nature",
+        "elements": "data/lookup_tables/natures"
       }
     ],
     "entity_synonyms": []

@@ -3,10 +3,10 @@
     "action_listen": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_greeting": {
       "slots": []
     },
-    "utter_greeting": {
+    "utter_goodbye": {
       "slots": []
     }
   },
@@ -25,5 +25,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20181206-115019"
+  "trained_at": "20181213-110200"
 }
