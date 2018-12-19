@@ -7,6 +7,8 @@
 - What type is [Abra](pokemon)?
 - [Abra](pokemon) type 
 - type of [Abra](pokemon)
+- Give me [Abra](pokemon)'s type
+- Give me the type of [Abra](pokemon)
 
 ## intent:pokemon_stats
 - [Abra](pokemon) stats
